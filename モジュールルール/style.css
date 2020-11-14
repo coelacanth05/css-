@@ -1,0 +1,82 @@
+.btn {
+  display: inline-block;
+  width: 300px;
+  padding: 20px 10px;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  border-width: 0;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  color: #fff;
+  background-color: #dd742c;
+}
+
+.btn .btn-small {
+  width: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.btn .btn-long {
+  width: 160px;
+}
+
+.l-header {
+  min-width: 1230px;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 1px solid #ddd;
+  text-align: right;
+}
+
+.media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.media > figure {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 25%;
+          flex: 1 1 25%;
+  margin-right: 3.33333%;
+}
+
+.media img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.media .media-body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 68.333333%;
+          flex: 1 1 68.333333%;
+}
+
+.media > h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.media > h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-bottom: 1px solid #555;
+}
+
+.media .media-sub-text {
+  color: #555;
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */
