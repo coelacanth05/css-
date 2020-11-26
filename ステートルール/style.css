@@ -1,0 +1,45 @@
+.inputtext {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+
+.is-error {
+  border-color: #d40152;
+}
+
+.is-error::-webkit-input-placeholder {
+  color: #d40152;
+}
+
+.is-error:-ms-input-placeholder {
+  color: #d40152;
+}
+
+.is-error::-ms-input-placeholder {
+  color: #d40152;
+}
+
+.is-error::placeholder {
+  color: #d40152;
+}
+
+.is-inputtext-error {
+  border-color: #d40152;
+}
+
+.is-inputtext-error::-webkit-input-placeholder {
+  color: #d40152;
+}
+
+.is-inputtext-error:-ms-input-placeholder {
+  color: #d40152;
+}
+
+.is-inputtext-error::-ms-input-placeholder {
+  color: #d40152;
+}
+
+.is-inputtext-error::placeholder {
+  color: #d40152;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,36 @@
+.tabnav {
+  display: flex;
+
+  li {
+    border-top: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+
+    a {
+      display: block;
+      padding: 10px 30px;
+      text-decoration: none;
+    }
+  }
+}
+
+.tabnav>li:first-child {
+  border-left: 1px solid #aaa;
+}
+
+.is-active {
+  background-color: #0093ff;
+
+  a {
+    pointer-events: none;
+    color: #fff;
+  }
+}
+
+.is-tavnav-active{
+  background-color: #0093ff;
+  a{
+    pointer-events: none;
+    color: #fff;
+  }
+}

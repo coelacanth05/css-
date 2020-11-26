@@ -1,0 +1,22 @@
+$b_color:#d40152;
+
+.inputtext {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+
+.is-error {
+  border-color: $b_color;
+
+  &::placeholder {
+    color: $b_color;
+  }
+}
+
+.is-inputtext-error {
+  border-color: $b_color;
+
+  &::placeholder {
+    color: $b_color;
+  }
+}
